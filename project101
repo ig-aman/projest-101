@@ -1,0 +1,11 @@
+import random 
+again = True
+
+while again:
+    no=(random.randint(1, 6))
+    print(no)
+    another_roll = input('Press y to roll again and n to exit:')
+    if another_roll.lower() == "y":
+        continue
+    else:
+        break
